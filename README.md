@@ -1,6 +1,6 @@
 # npmtest-argparse
 
-#### test coverage for  [argparse (v1.0.9)](https://github.com/nodeca/argparse#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-argparse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-argparse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-argparse.svg)](https://travis-ci.org/npmtest/node-npmtest-argparse)
+#### basic test coverage for  [argparse (v1.0.9)](https://github.com/nodeca/argparse#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-argparse.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-argparse) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-argparse.svg)](https://travis-ci.org/npmtest/node-npmtest-argparse)
 
 #### Very powerful CLI arguments parser. Native port of argparse - python's options parsing library
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-argparse/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-argparse/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-argparse/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-argparse/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-argparse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-argparse/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-argparse/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-argparse/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-argparse/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-argparse/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-argparse/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-argparse/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "1.0.9"
+    "version": "1.0.9",
+    "bin": {}
 }
 ```
 
